@@ -12,3 +12,6 @@ As part of cleaning the data, null rows where removed from each table,columns we
 To merge the data, firstly i meged the employee table to the salary table, using left outer join, with employee ID as the common column for merging. The resulted merged table is further merged with the department table using the department ID as the common, also using left outer join. See the resulting table below
 
 ![](fulldetail.JPG)
+
+## CONCLUSION
+After merging the data, i further made sure that columns like pincode, phone and department ID are not summarized. 
